@@ -3,11 +3,15 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: For each horizontal, vertical, diagonal or square unit of 9 boxes we
+   implement the constraint that if two boxes has exactly two possible values
+   and if the two boxes has the same possible values, then no other box in that
+   particular unit can have these two values as any of their possible values.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: To add the ability to solve diagonal sudokus we add the diagonal units of the
+   sudoku board as constraints for unique values of boxes.
 
 ### Install
 
